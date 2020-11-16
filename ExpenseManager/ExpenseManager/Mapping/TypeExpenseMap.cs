@@ -20,7 +20,7 @@ namespace ExpenseManager.Mapping
             builder.HasMany(td => td.Expenses).WithOne(td => td.TypeExpense).HasForeignKey(td => td.TypeExpenseId);
 
             //Name of the table
-            builder.ToTable("Expense");
+            builder.ToTable("TypeExpense");
 
 
         }

@@ -101,5 +101,7 @@ C:\Users\mt12950\Documents\Wagner\LabASPNETCORE\Expenses\expenses\ExpenseManager
 C:\Users\mt12950\Documents\Wagner\LabASPNETCORE\Expenses\expenses\ExpenseManager\ExpenseManager\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\mt12950\Documents\Wagner\LabASPNETCORE\Expenses\expenses\ExpenseManager\ExpenseManager\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
 C:\Users\mt12950\Documents\Wagner\LabASPNETCORE\Expenses\expenses\ExpenseManager\ExpenseManager\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\mt12950\Documents\Wagner\LabASPNETCORE\Expenses\expenses\ExpenseManager\ExpenseManager\bin\Debug\netcoreapp3.0\Humanizer.dll
+C:\Users\mt12950\Documents\Wagner\LabASPNETCORE\Expenses\expenses\ExpenseManager\ExpenseManager\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\mt12950\Documents\Wagner\LabASPNETCORE\Expenses\expenses\ExpenseManager\ExpenseManager\obj\Debug\netcoreapp3.0\ExpenseManager.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mt12950\Documents\Wagner\LabASPNETCORE\Expenses\expenses\ExpenseManager\ExpenseManager\obj\Debug\netcoreapp3.0\ExpenseManager.MvcApplicationPartsAssemblyInfo.cache

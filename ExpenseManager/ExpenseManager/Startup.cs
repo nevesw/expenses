@@ -54,7 +54,7 @@ namespace ExpenseManager
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=TypeExpenses}/{action=Index}/{id?}");
             });
         }
     }

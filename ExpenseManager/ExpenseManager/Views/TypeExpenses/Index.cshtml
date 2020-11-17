@@ -13,6 +13,18 @@
         {
             <h6 class="alert alert-success">@TempData["Confirm"]</h6>
         }
+
+        <form asp-action="Index" asp-controller="TypeExpenses" method="post">
+            <h6>Pesquisar</h6>
+            <div class="form-group">
+                <div class="input-group col-md-6">
+                    <input class="form-control" name="txtProcurar" />
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-outline-dark"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </form>
         <table class="table table-hover">
             <thead>
                 <tr>

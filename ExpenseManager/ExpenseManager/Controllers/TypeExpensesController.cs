@@ -18,12 +18,28 @@ namespace ExpenseManager.Controllers
             _context = context;
         }
 
-        // GET: TypeExpenses
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             return View(await _context.TypeExpenses.ToListAsync());
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Index(string txtProcurar)
+        {
+            if (!string.IsNullOrEmpty(txtProcurar))
+                return View(await _context.TypeExpenses.Where(te => te.Name.ToUpper().Contains(txtProcurar.ToUpper())).ToListAsync());
+
+            return View(await _context.TypeExpenses.ToListAsync());
+        }
+        public async Task<JsonResult> TypeExpenseExists(string name)
+        {
+            if (await _context.TypeExpenses.AnyAsync(te => te.Name.ToUpper() == name.ToUpper()))
+            {
+                return Json("Esse tipo de despesa já existe!");
+            }
+            return Json(true);
+        }
         //// GET: TypeExpenses/Details/5
         //public async Task<IActionResult> Details(int? id)
         //{

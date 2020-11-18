@@ -198,3 +198,6 @@ C:\Users\mt12950\Documents\Wagner\LabASPNETCORE\Expenses\expenses\ExpenseManager
 C:\Users\mt12950\Documents\Wagner\LabASPNETCORE\Expenses\expenses\ExpenseManager\ExpenseManager\obj\Debug\netcoreapp3.0\Razor\Views\TypeExpenses\Create.cshtml.g.cs
 C:\Users\mt12950\Documents\Wagner\LabASPNETCORE\Expenses\expenses\ExpenseManager\ExpenseManager\obj\Debug\netcoreapp3.0\Razor\Views\TypeExpenses\Edit.cshtml.g.cs
 C:\Users\mt12950\Documents\Wagner\LabASPNETCORE\Expenses\expenses\ExpenseManager\ExpenseManager\obj\Debug\netcoreapp3.0\Razor\Views\TypeExpenses\Index.cshtml.g.cs
+C:\Users\mt12950\Documents\Wagner\LabASPNETCORE\Expenses\expenses\ExpenseManager\ExpenseManager\obj\Debug\netcoreapp3.0\Razor\Views\Salary\Create.cshtml.g.cs
+C:\Users\mt12950\Documents\Wagner\LabASPNETCORE\Expenses\expenses\ExpenseManager\ExpenseManager\obj\Debug\netcoreapp3.0\Razor\Views\Salary\Edit.cshtml.g.cs
+C:\Users\mt12950\Documents\Wagner\LabASPNETCORE\Expenses\expenses\ExpenseManager\ExpenseManager\obj\Debug\netcoreapp3.0\Razor\Views\Salary\Index.cshtml.g.cs

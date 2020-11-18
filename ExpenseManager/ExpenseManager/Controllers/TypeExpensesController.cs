@@ -40,24 +40,7 @@ namespace ExpenseManager.Controllers
             }
             return Json(true);
         }
-        //// GET: TypeExpenses/Details/5
-        //public async Task<IActionResult> Details(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var typeExpense = await _context.TypeExpenses
-        //        .FirstOrDefaultAsync(m => m.TypeExpenseId == id);
-        //    if (typeExpense == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return View(typeExpense);
-        //}
-
+       
         // GET: TypeExpenses/Create
         public IActionResult Create()
         {
